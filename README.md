@@ -17,7 +17,7 @@ A responsive weather application built using React and Vite.
 ## 🔐 Environment Variables
 Create a `.env` file and add:
 
-VITE_API_KEY="83d9fb189b0fc436c2fe8b47f079616d"
+VITE_API_KEY=YOUR_API_KEY
 
 ## ▶️ Run Locally
 npm install
