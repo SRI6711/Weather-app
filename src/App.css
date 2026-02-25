@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.app {
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #87ceeb, #e0f6ff);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+}
+
+.search {
+  width: 340px;
+  padding: 14px 18px;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.35);
+  backdrop-filter: blur(12px);
+  border-radius: 30px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+}
+
+.weather-card {
+  margin-top: 40px;
+  width: 85%;
+  max-width: 900px;
+  display: flex;
+  padding: 40px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+}
+
+.main-icon {
+  width: 150px;
+}
+
+.right {
+  text-align: left;
+}
+
+.today {
+  font-size: 18px;
+}
+
+.right h1 {
+  font-size: 46px;
+  margin: 10px 0;
+}
+
+.temp {
+  font-size: 20px;
+}
+
+.desc {
+  text-transform: capitalize;
+}
+
+.info {
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.error {
+  color: red;
+}
