@@ -24,7 +24,32 @@
   outline: none;
   font-size: 16px;
 }
-
+.search-btn {
+  margin-top: 15px;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 25px;
+  background: #4facfe;
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.search-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+.search-btn:active {
+  transform: scale(0.95);
+}
+@media (max-width: 480px) {
+  .search-btn {
+    width: 100%;
+    font-size: 14px;
+    padding: 10px;
+  }
+}
 /* CARD */
 .card {
   margin-top: 40px;

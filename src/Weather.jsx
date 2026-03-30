@@ -75,6 +75,7 @@ function Weather() {
 
   return (
     <div className="app">
+      <div className="search-box">
       <input
         className="search"
         placeholder="Enter city"
@@ -82,6 +83,10 @@ function Weather() {
         onChange={(e) => setCity(e.target.value)}
         onKeyDown={(e) => e.key === "Enter" && fetchWeather()}
       />
+      <button className="search-btn" onClick={fetchWeather}>
+        Search
+      </button>
+      </div>
 
       {error && <p className="error">{error}</p>}
 
