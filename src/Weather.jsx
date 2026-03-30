@@ -7,7 +7,7 @@ import rain from "./assets/rain.png";
 import snow from "./assets/snow.png";
 import storm from "./assets/storm.png";
 
-const API_KEY = "83d9fb189b0fc436c2fe8b47f079616d";
+const API_KEY = import.meta.env.VITE_API_KEY;
 
 function Weather() {
   const [city, setCity] = useState("");
